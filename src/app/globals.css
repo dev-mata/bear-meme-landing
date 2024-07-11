@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -18,16 +21,35 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background: ber-yellow;
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+
+.main-text-solid {
+  font-family: "Londrina Solid", sans-serif;
+  font-size: 2xl;
+}
+
+.main-text-shadow {
+  font-family: "Londrina Shadow", sans-serif;
+
+}
+
+.sec-text {
+  font-family: "Gowun Dodum", cursive;
+  font-size: 1.5rem; /* Adjust as needed */
+}
+
+.bear-bg {
+  background-image: url('./assets/hero-cont-bg.svg');
+  background-size:contain; /* Adjust as needed */
+  background-position: center; /* Adjust as needed */
+  background-repeat: no-repeat;
+  height: 28rem;
 }
