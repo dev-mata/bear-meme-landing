@@ -4,10 +4,14 @@ import Hero from "./components/Hero";
 import Header from "./components/Header";
 import Roadmap from "./components/Roadmap";
 import Gif from "./components/Gif";
+import About from "./components/About";
 
 import "@fontsource/gowun-dodum";
 import "@fontsource/londrina-solid";
 import "@fontsource/londrina-shadow";
+import Tokenomics from "./components/Tokenomics";
+import Community from "./components/Community";
+import BearDivider from "./components/BearDivider";
 
 
 export const metadata = {
@@ -23,6 +27,11 @@ export default function RootLayout() {
         <Hero />
         <Roadmap />
         <Gif />
+        <Tokenomics />
+        <About />
+        <Community />
+        <BearDivider />
+
       </body>
 
     </html>
