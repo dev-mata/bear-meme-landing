@@ -2,6 +2,8 @@
 import "./globals.css";
 import Hero from "./components/Hero";
 import Header from "./components/Header";
+import Roadmap from "./components/Roadmap";
+
 import "@fontsource/gowun-dodum";
 import "@fontsource/londrina-solid";
 import "@fontsource/londrina-shadow";
@@ -18,6 +20,7 @@ export default function RootLayout() {
       <body className="bg-ber-yellow text-gray-800">
         <Header />
         <Hero />
+        <Roadmap />
       </body>
 
     </html>

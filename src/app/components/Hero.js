@@ -8,10 +8,10 @@ const Hero = () => {
     return (
         <>
 
-            <main className="container mx-auto flex flex-col lg:flex-row items-center justify-between px-4 py-0 main-text-solid">
+            <main className="container mx-auto flex flex-col lg:flex-row items-center justify-between px-4 py-0 fnt-solid">
                 <div className="flex-2">
-                    <h1 className="text-6xl font-bold mb-2 main-text-solid">$BEAR</h1>
-                    <h1 className="font-semibold mb-4 main-text-shadow text-4xl" >Powered by TON Network</h1>
+                    <h1 className="text-6xl font-bold mb-2 fnt-solid">$BEAR</h1>
+                    <h1 className="font-semibold mb-4 fnt-shadow text-4xl" >Powered by TON Network</h1>
                     {/* <div className="flex items-center">
                         <div className="w-8 h-8 bg-blue-500 rounded-full"></div>
                     </div> */}

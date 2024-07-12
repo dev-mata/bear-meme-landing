@@ -14,7 +14,8 @@
     "@fontsource/londrina-solid": "^5.0.19",
     "next": "14.2.5",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "swiper": "^11.1.4"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.19",
