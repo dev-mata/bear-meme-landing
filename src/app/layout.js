@@ -3,6 +3,7 @@ import "./globals.css";
 import Hero from "./components/Hero";
 import Header from "./components/Header";
 import Roadmap from "./components/Roadmap";
+import Gif from "./components/Gif";
 
 import "@fontsource/gowun-dodum";
 import "@fontsource/londrina-solid";
@@ -21,6 +22,7 @@ export default function RootLayout() {
         <Header />
         <Hero />
         <Roadmap />
+        <Gif />
       </body>
 
     </html>

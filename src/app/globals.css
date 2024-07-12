@@ -21,7 +21,7 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: ber-yellow;
+  background: white;
 }
 
 @layer utilities {
@@ -43,7 +43,8 @@ body {
 
 .fnt-sec {
   font-family: "Gowun Dodum", cursive;
-  font-size: 1.5rem; /* Adjust as needed */
+  font-size: 16px; /* Adjust as needed */
+  line-height: 30px;
 }
 
 .bear-bg {
@@ -53,3 +54,4 @@ body {
   background-repeat: no-repeat;
   height: 28rem;
 }
+
