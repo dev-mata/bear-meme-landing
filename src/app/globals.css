@@ -22,6 +22,7 @@
 body {
   color: rgb(var(--foreground-rgb));
   background: white;
+  width: 100vw;
 }
 
 @layer utilities {
@@ -43,7 +44,6 @@ body {
 
 .fnt-sec {
   font-family: "Gowun Dodum", cursive;
-  font-size: 16px; /* Adjust as needed */
   line-height: 30px;
 }
 
@@ -60,4 +60,13 @@ body {
   background-repeat: no-repeat;
   background-size:cover;
   clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+}
+
+@media only screen and (max-width: 600px) {
+  .custom-shape {
+    background-image: none;
+    background-repeat: no-repeat;
+    background-size:cover;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+  }
 }

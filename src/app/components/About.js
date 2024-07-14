@@ -29,7 +29,7 @@ const About = () => {
 
 
 
-                <div className="flex-1 ">
+                <div className="flex-1 hidden md:block">
                     <Image src={whyBear} className="w-[650px]" />
 
                 </div>

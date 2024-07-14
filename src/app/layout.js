@@ -12,6 +12,7 @@ import "@fontsource/londrina-shadow";
 import Tokenomics from "./components/Tokenomics";
 import Community from "./components/Community";
 import BearDivider from "./components/BearDivider";
+import Faq from "./components/Faq";
 
 
 export const metadata = {
@@ -22,6 +23,7 @@ export const metadata = {
 export default function RootLayout() {
   return (
     <html lang="en">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
       <body className="bg-ber-yellow text-gray-800">
         <Header />
         <Hero />
@@ -30,6 +32,7 @@ export default function RootLayout() {
         <Tokenomics />
         <About />
         <Community />
+        <Faq />
         <BearDivider />
 
       </body>
