@@ -27,7 +27,7 @@ const Hero = () => {
                 <div className="flex-1 ">
                     <div className=" rounded-lg text-center md:text-left">
                         <div className="bear-bg p-8 mt-[-12rem] md:mt-2 flex flex-col justify-center">
-                            <h2 className="text-4xl mb-4 pl-4">Meet $BEAR Coin: The Solana Memecoin Defying Market Trends!</h2>
+                            <h2 className="text-4xl mb-4 pl-4">Meet $BEAR Coin: The TON Memecoin Defying Market Trends!</h2>
                             <p className="mb-4 pl-4">Contract Address: 0xf99090ad2e8a3dca0df28180f12828e67c326</p>
 
                             <div className="pl-4">

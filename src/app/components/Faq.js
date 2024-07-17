@@ -29,7 +29,7 @@ const Faq = () => {
               What is Bear Coin?
             </h3>
             <p className="fnt-sec text-xl font-bold">
-              Bear Coin is a Solana-based memecoin designed to pump in both
+              Bear Coin is a TON-based memecoin designed to pump in both
               bullish and bearish markets.
             </p>
           </div>
