@@ -36,7 +36,7 @@ const Roadmap = () => {
             <h3 className="mt-12 mb-2 text-2xl">Phase 2:</h3>
 
             <p className="fnt-sec text-lg">~ Launch and Community Building</p>
-            <p className="fnt-sec text-lg">~ Launch Bear Coin on the Solana blockchain</p>
+            <p className="fnt-sec text-lg">~ Launch Bear Coin on the TON blockchain</p>
             <p className="fnt-sec text-lg">~ Grow and engage the community</p>
 
 

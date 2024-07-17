@@ -12,7 +12,7 @@ const About = () => {
             <main className="container mx-auto flex flex-col lg:flex-row items-center justify-between px-4 py-0 fnt-solid">
                 <div className="flex-1">
                     <h1 className="text-6xl font-bold mb-2 fnt-solid">What is $BEAR Coin?</h1>
-                    <h1 className="font-semibold mb-4 mt-8 fnt-shadow text-4xl tracking-wider " >Bear Coin is a revolutionary memecoin built on the Solana blockchain, designed to bring humor and excitement to the crypto space. Our unique bear character symbolizes resilience and strength, pumping during both bullish and bearish markets. Whether the market is up or down, Bear Coin thrives, making it the ultimate choice for true degens.</h1>
+                    <h1 className="font-semibold mb-4 mt-8 fnt-shadow text-4xl tracking-wider " >Bear Coin is a revolutionary memecoin built on the TON blockchain, designed to bring humor and excitement to the crypto space. Our unique bear character symbolizes resilience and strength, pumping during both bullish and bearish markets. Whether the market is up or down, Bear Coin thrives, making it the ultimate choice for true degens.</h1>
 
                 </div>
 
@@ -46,8 +46,8 @@ const About = () => {
                     </h3>
 
                     <h3 className="font-semibold mb-4 mt-8 fnt-shadow text-4xl tracking-wider " >
-                        <span className="fnt-solid">Solana Blockchain: </span>
-                        Built on the Solana blockchain, Bear Coin offers fast, secure, and low-cost transactions.
+                        <span className="fnt-solid">TON Blockchain: </span>
+                        Built on the TON blockchain, Bear Coin offers fast, secure, and low-cost transactions.
                     </h3>
 
                     <h3 className="font-semibold mb-4 mt-8 fnt-shadow text-4xl tracking-wider " >
