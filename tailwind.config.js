@@ -17,6 +17,17 @@ module.exports = {
           'ber-blue' : '#006DFF',
           'ber-gray' : '#D9D9D9'
       },
+      keyframes: {
+        bounceIn: {
+          '0%, 20%, 40%, 60%, 80%, 100%': { transform: 'translateY(0)' },
+          '50%': { transform: 'translateY(-30px)' },
+        },
+      },
+      animation: {
+        'bounce-in': 'bounceIn 1s ease-in-out',
+      },
+
+      
     },
   },
   plugins: [],
