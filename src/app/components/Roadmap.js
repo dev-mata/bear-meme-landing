@@ -38,6 +38,8 @@ const Roadmap = () => {
             <p className="fnt-sec text-lg">~ Launch and Community Building</p>
             <p className="fnt-sec text-lg">~ Launch Bear Coin on the TON blockchain</p>
             <p className="fnt-sec text-lg">~ Grow and engage the community</p>
+            <p className="fnt-sec text-lg">~ Presale</p>
+
 
 
           </div>
@@ -50,6 +52,9 @@ const Roadmap = () => {
             <p className="fnt-sec text-lg">~ Market Integration and Major Pumps</p>
             <p className="fnt-sec text-lg">~ Coordinate major pumps during bearish markets with community members</p>
             <p className="fnt-sec text-lg">~ Integrate with key exchanges and platforms</p>
+            <p className="fnt-sec text-lg">~ BearCoin "Pump itt!" game</p>
+
+           
           </div>
 
           <div className="relative flex-1 p-6 bg-ber-gray m-2 rounded-[32px]">

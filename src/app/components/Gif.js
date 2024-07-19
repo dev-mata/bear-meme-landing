@@ -44,7 +44,7 @@ const Gif = () => {
 
                     {/* bear torotot */}
 
-                    <Image src={bpaw1} className="absolute top-[5%] right-[17%] w-[300px] hidden md:block" unoptimized={true} />
+                    <Image src={bpaw1} className="absolute top-[5%] right-[17%] w-[300px] hidden md:block"  />
 
                     <Image src={bpaw2} className="absolute bottom-[5%] left-[17%] w-[300px] hidden md:block " />
                     <Image src={bpaw3} className="absolute top-[5%] left-[25%] w-[70px] hidden md:block" />
@@ -52,31 +52,31 @@ const Gif = () => {
 
 
 
-                    <Image src={gif1} className="absolute bottom-[30%] right-[27%] w-[300px] hidden md:block " unoptimized={true} />
+                    <Image src={gif1} className="absolute bottom-[30%] right-[27%] w-[300px] hidden md:block "  />
 
                     {/*dancing bear */}
 
-                    <Image src={gif2} className="absolute bottom-[10%] right-[30%] w-[300px] hidden md:block" unoptimized={true} />
+                    <Image src={gif2} className="absolute bottom-[10%] right-[30%] w-[300px] hidden md:block"  />
 
                     {/* slding bear */}
 
-                    <Image src={gif3} className="absolute top-[2%] left-[32%] hidden md:block " unoptimized={true} />
+                    <Image src={gif3} className="absolute top-[2%] left-[32%] hidden md:block "  />
 
                     {/* bull bear */}
 
-                    <Image src={gif4} className="absolute top-3 right-[30%] w-[300px] hidden md:block" unoptimized={true} />
+                    <Image src={gif4} className="absolute top-3 right-[30%] w-[300px] hidden md:block"  />
 
                     {/* bear vibe */}
 
-                    <Image src={gif5} className="absolute top-[20%] left-1/4 w-[250px] hidden md:block"  unoptimized={true}/>
+                    <Image src={gif5} className="absolute top-[20%] left-1/4 w-[250px] hidden md:block"  />
 
                     {/* this is fine */}
 
-                    <Image src={gif6} className="absolute -top-[2%] md:top-[1%] md:left-[90] w-[300px] hidden md:block  " unoptimized={true} />
+                    <Image src={gif6} className="absolute -top-[2%] md:top-[1%] md:left-[90] w-[300px] hidden md:block  "  />
 
                     {/* coming for gains */}
 
-                    <Image src={gif7} className="absolute left-[30%] top-[60%] hidden md:block" unoptimized={true} />
+                    <Image src={gif7} className="absolute left-[30%] top-[60%] hidden md:block"  />
                 </div>
             </div>
 

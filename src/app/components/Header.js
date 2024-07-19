@@ -1,8 +1,10 @@
 import React from "react";
+import Image from 'next/image'
 import twitter from '../assets/twitter.svg'
 import discord from '../assets/discord.svg'
 import telegram from '../assets/telegram.svg'
-import Image from 'next/image'
+import candleStick from '../assets/candlestick.svg'
+
 
 const Header = () => {
     return(
@@ -14,6 +16,14 @@ const Header = () => {
                     <li><a href="#" className="bg-ber-gray p-2 rounded-xl border-2 border-black hover:bg-ber-blue hover:text-white">Roadmap</a></li>
                     <li><a href="#" className="bg-ber-gray p-2 rounded-xl border-2 border-black hover:bg-ber-blue hover:text-white">Tokenomics</a></li>
                     <li><a href="#" className="bg-ber-gray p-2 rounded-xl border-2 border-black hover:bg-ber-blue hover:text-white">About</a></li>
+                    <li><a href="#" className="bg-ber-gray p-2 rounded-xl border-2 border-black hover:bg-ber-blue hover:text-white">Alpha Bears</a></li>
+                    <li><a href="#" className="flex items-center -mt-2 bg-ber-gray p-2 rounded-xl border-2 border-black hover:bg-ber-blue hover:text-white">
+                        Pump itt <span className="ml-1"><Image src={candleStick} /> </span>
+                        </a>
+                    
+                    </li>
+                    <li><a href="#" className="bg-ber-gray p-2 rounded-xl border-2 border-black hover:bg-ber-blue hover:text-white">Coming Soon</a></li>
+
                 </ul>
             </nav>
             <div className="flex justify-center items-center">
