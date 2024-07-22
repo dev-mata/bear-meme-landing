@@ -40,7 +40,7 @@ const Gif = () => {
                     <Image src={bearCenterMobile} className="relative z-10 w-full block md:hidden animate-bounce" />
 
 
-                    {/* GIFs positioned around the centered bear */}
+                    {/* GIFs positioned around the centered bear getting ready for vercel! */}
 
                     {/* bear torotot */}
 
