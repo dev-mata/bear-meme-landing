@@ -31,18 +31,17 @@ const Community = () => {
                     <h2 className="text-6xl font-bold fnt-solid ">SLIDE INTO OUR $COMMUNITY</h2>
                     <p className="mb-6 fnt-sec text-xl font-bold mt-6">Join our vibrant community of degens who believe in the power of Bear Coin. Participate in discussions, pump events, and much more!</p>
                     <div className="flex justify-center md:justify-start space-x-4">
-                        <a href="#" className="bg-ber-gray p-2 rounded-xl border-2 border-black flex">
+                        <a href="https://t.me/PumpingBear" className="bg-ber-gray p-2 rounded-xl border-2 border-black flex">
                             <Image src={telegram} alt="Telegram" className="w-6 h-6 mr-2" />
                             <span>Telegram</span>
                         </a>
-                        <a href="#" className="bg-ber-gray p-2 rounded-xl border-2 border-black flex">
+                        {/* <a href="#" className="bg-ber-gray p-2 rounded-xl border-2 border-black flex">
                             <Image src={discord} alt="Telegram" className="w-6 h-6 mr-2" />
 
                             <span>Discord</span>
-                        </a>
-                        <a href="#" className="bg-ber-gray p-2 rounded-xl border-2 border-black flex">
+                        </a> */}
+                        <a href="https://x.com/pumpingbearcoin" className="bg-ber-gray p-2 rounded-xl border-2 border-black flex">
                             <Image src={twitter} alt="Telegram" className="w-6 h-6 mr-2" />
-
                             <span>Twitter</span>
                         </a>
                     </div>

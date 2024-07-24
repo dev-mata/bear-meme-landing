@@ -40,7 +40,11 @@ export default function RootLayout() {
 
   return (
     <html lang="en">
+      
       <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+      <meta name="title" content="Pumping Bear Coin (PBR) The Memecoin That Pumps Bullish & Bearish Strong Community, TON Blockchain" />
+      <meta name="description" content="Pumping Bear Coin (PBR) is a revolutionary TON memecoin that thrives in any market. Join our community-driven pumps, enjoy low fees & fast transactions, and be part of the memecoin revolution!" />
+      
       <body className="bg-ber-yellow text-gray-800">
         <Header onMenuClick={handleScroll} refs={{ heroRef, roadmapRef, gifRef, tokenonmicsRef, aboutRef, communityRef, faqRef }} />
 

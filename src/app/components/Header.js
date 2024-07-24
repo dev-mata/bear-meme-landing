@@ -72,17 +72,17 @@ const Header = ({ onMenuClick, refs }) => {
           </ul>
         </nav>
         <div className="flex justify-center items-center">
-          <a className="m-2">
+          <a className="m-2" href="https://x.com/pumpingbearcoin" target="_blank">
             <Image src={twitter} />
           </a>
-          <a className="m-2">
+          <a className="m-2" href="https://t.me/PumpingBear" target="_blank">
             <Image src={telegram} />
           </a>
-          <a className="m-2">
+          {/* <a className="m-2">
             <Image src={discord} />
-          </a>
+          </a> */}
           <button  onClick={() => setShowPopup(true)} className="bg-ber-blue text-white py-2 px-6 rounded-xl border-2 border-black fnt-solid hover:bg-black hover:text-white">
-            Buy $BEAR
+            Buy $PBR
           </button> 
         </div>
       </div>
