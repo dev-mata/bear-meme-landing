@@ -13,7 +13,6 @@ const Faq = () => {
         objectFit="cover" // Maintains the aspect ratio while covering the area
         priority // Optionally load before other images
         className="z-0" // Ensures it stays in the background
-        quality={50}
       />
       {/* Your section content here */}
 
