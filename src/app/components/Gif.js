@@ -36,8 +36,8 @@ const Gif = () => {
  
 
 
-                    <Image src={bearCenter} className="relative z-10 h-[517px] w-[895px] hidden md:block " />
-                    <Image src={bearCenterMobile} className="relative z-10 w-full block md:hidden animate-bounce" />
+                    <Image src={bearCenter} className="relative z-10 h-[517px] w-[895px] hidden md:block " quality={50} />
+                    <Image src={bearCenterMobile} className="relative z-10 w-full block md:hidden animate-bounce" quality={50} />
 
 
                     {/* GIFs positioned around the centered bear getting ready for vercel! */}
