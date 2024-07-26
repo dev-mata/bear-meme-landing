@@ -3,7 +3,6 @@ import Image from "next/image";
 import heroBear from "../assets/hero-bear.jpg";
 import bearPawBg from "../assets/hero-cont-bg.svg";
 import BearDivider from "./BearDivider";
-import Typical from "react-typical";
 
 const Hero = () => {
   const contractAddress = "EQB6dtlVpFT3DEGJtfg0rDtMtmNj-ZPfFHQ9bXwoR79G72zD";
@@ -46,14 +45,9 @@ const Hero = () => {
         <div className="flex-1 ">
           <div className=" rounded-lg text-center md:text-left">
             <div className="bear-bg p-8 mt-[-12rem] md:mt-2 flex flex-col justify-center">
-              <Typical
-                steps={[
-                  "Meet the Pumping Bear: The TON Memecoin Defying Market Trends!",
-                  1000,
-                ]}
-                wrapper="h2"
-                className="text-4xl mb-4 pl-4"
-              />
+
+              <h2 className="text-4xl mb-4 pl-4">Meet the Pumping Bear: The TON Memecoin Defying Market Trends!</h2>
+             
 
               <a
                 href="https://tonviewer.com/EQB6dtlVpFT3DEGJtfg0rDtMtmNj-ZPfFHQ9bXwoR79G72zD?section=transactions"
